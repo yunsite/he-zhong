@@ -14,8 +14,8 @@
 // 定义头信息
 header("Content-type: text/html; charset=UTF-8");
 
-// 跨域访问session，域名：microsourcenet.com
-//ini_set("session.cookie_domain", ".microsourcenet.com");
+// 跨域访问session，域名：hzcms.com
+//ini_set("session.cookie_domain", ".hzcms.com");
 // 定义thinkphp框架入口
 define('THINK_PATH', './ThinkPHP/');
 // 定义应用路径及应用名称
