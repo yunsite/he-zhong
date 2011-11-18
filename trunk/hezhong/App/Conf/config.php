@@ -50,6 +50,7 @@ return array(
     'SMTP_ENCODING' => 'base64',
     'SMTP_HOST' => 'smtp.qq.com',
     'SMTP_PORT' => '25',
+    'SMTP_USER' => '1823825135',
     'SMTP_PWD' => 'ms201101',
     'FROM_EMAIL' => '1823825135@qq.com',
     'FROM_NAME' => '【微源网络科技】',
