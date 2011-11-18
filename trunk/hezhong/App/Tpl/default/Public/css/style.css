@@ -1,0 +1,69 @@
+/* 
+ * [HZcms] (C)2001-2018 AoSheWeb Inc.
+ * This is NOT a freeware, use is subject to license terms.
+ * 
+ * Document   : style.css
+ * Encoding   : UTF-8
+ * Created on : 2011-11-18, 17:38:46
+ * Author     : shengbo wushengbo@qq.com 475749812
+ * Site       : http://www.aosheweb.com
+ * Description: 
+*/
+
+/*通用*/
+*{margin:0; padding:0;}
+img{ border:0;}
+a{font-size:12px; text-decoration:none; font-family:"宋体"; color:#000}
+a:hover{ color:#FF0000}
+ul li{list-style:none;}
+ol li{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-weight:normal; font-size:12px;}
+body{ color:#000; font-family:"宋体"; font-size:12px;}
+.clear{clear:both}
+
+/*头部*/
+#loginBar{height:35px; background:url(../images/backgroud.png) repeat-x 0 -38px}
+.loginBar_z{width:1000px; line-height:35px; margin:0 auto}
+.loginBar_z p{float:left}
+.loginBar_z p a{font-weight:bold; color:#0b4ca8; margin-left:12px;}
+.loginBar_z span{float:right}
+
+#navBar{width:1000px; margin:25px auto 0; background:url(../images/nav_bj.jpg) no-repeat bottom; height:102px;}
+.logobar{width:1000px;}
+.logo{float:left; margin-left:25px;}
+.nav{ margin:22px 0 0 35px; float:left}
+.nav a{float:left; width:81px; line-height:31px; background:url(../images/botton.png) no-repeat -86px 0; margin-left:5px; font-size:14px; color:#05449f; text-align:center}
+.nav a:hover{background:url(../images/botton.png) no-repeat; color:#FFF}
+
+#searchar{ margin-top:10px; _margin-top:8px;}
+.subNav{float:left; margin-left:5px;}
+.subnav1{ width:182px; line-height:31px; background:url(../images/fenlei.jpg); padding-left:39px;}
+.subnav1 a{font-size:14px; color:#03439d; font-weight:bold}
+.sear{float:left; margin-left:15px;}
+.sear p{width:62px; text-align:center; line-height:31px; font-size:14px; color:#FFF; float:left}
+.sou{width:362px; height:27px; background:#FFF; border-left:1px #b4b4b4 solid; border-top:1px #b4b4b4 solid; float:left}
+.sou a{float:left; width:52px; line-height:27px; background:url(../images/dian.jpg) no-repeat right; font-size:14px; color:#03439d; text-align:center; padding-right:2px;}
+.kuang{float:left; width:270px; height:27px; line-height:27px; border:0; margin-left:5px; font-size:14px; color:#bfbcbc}
+.sou span{width:23px; height:27px; background:url(../images/botton.png) no-repeat 0 -40px; float:right;}
+.sear h3{float:left; margin-left:10px;}
+.button{width:73px; height:28px; background:url(../images/botton.png) no-repeat -24px -39px; float:left; border:none}
+.hot{float:left; margin-left:15px; color:#FFF; line-height:30px;}
+.hot a{color:#FFF}
+
+/*产品排行*/
+#product{width:228px; border:1px #ddd solid; float:left; margin-top:10px;}
+.pai1{line-height:32px; background:url(../images/backgroud.png) 0 -122px; overflow:hidden}
+.pai1 p{float:left; padding-left:12px; font-size:14px; font-weight:bold; color:#014099}
+.pai1 span{float:right; padding-right:5px;}
+.pai2{padding:5px 10px 2px; float:left; width:208px}
+.pai2 dl dt{float:left}
+.pai2 dl dd{margin-left:10px; float:left}
+.pai2 dl dd p{line-height:24px;}
+.pai2 dl dd p a{color:#8e8ed9}
+.pai2 dl dd span{ width:64px; height:13px; background:url(../images/icon.png) no-repeat 0 -69px; margin-top:7px; float:left}
+.pai2 ul{margin-top:8px; float:left; width:208px;}
+.pai2 ul li{line-height:24px; color:#014099}
+.pai2 ul li a{color:#014099}
+
+/*js广告条760*/
+#slides{margin-top:10px;}
