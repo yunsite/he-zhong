@@ -38,10 +38,10 @@ Description: 模板静态开发及测试页面
         <![endif]-->
     </head>
     <body>
-        <defined name="tplFile">
+        <present name="tplFile">
             <layout name="$tplFile" cache="0" />
             <else />
             www template index
-        </defined>
+        </present>
     </body>
 </html>
