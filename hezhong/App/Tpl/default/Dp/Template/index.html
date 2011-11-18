@@ -1,0 +1,47 @@
+<!--
+[HZcms] (C)2001-2018 AoSheWeb Inc.
+This is NOT a freeware, use is subject to license terms.
+
+Document   : index.html
+Encoding   : UTF-8
+Created on : 2011-11-18, 14:21:37
+Author     : leefire yunzhi.li.08@gmail.com 464328282
+Site       : http://www.aosheweb.com
+Description: 模板静态开发及测试页面
+-->
+
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=7" />
+        <title>合众文化传媒有限公司-点评网</title>
+        <!-- CDN的JS引用方式 -->
+        <!--
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script type="text/javascript" src="http://cdn.jquerytools.org/1.2.6/all/jquery.tools.min.js"></script>
+        -->
+        <!-- JS的本地引入方式 -->
+        <script type="text/javascript" src="__PUBLIC__/js/jquery-1.6.2.min.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/js/jquery.tools.min.js"></script>
+        <!-- CSS引入 -->
+        <link rel="stylesheet" type="text/css" href="../Public/css/default/css.css" />
+        <!-- correct png | PNG修复方式 -->
+        <!--[if lt IE 7]>
+            <script type="text/javascript" src="__PUBLIC__/js/DD_belatedPNG_0.0.8a-min.js"></script>
+            <script type="text/javascript">
+                 // 使用方法
+                 // DD_belatedPNG.fix('.png'); 修复类为PNG图片
+            </script>
+        <![endif]-->
+    </head>
+    <body>
+        <present name="tplFile">
+            <layout name="$tplFile" cache="0" />
+            <else />
+            dianping template index
+        </present>
+    </body>
+</html>

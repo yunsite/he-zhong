@@ -1,0 +1,65 @@
+<!--
+[HZcms] (C)2001-2018 AoSheWeb Inc.
+This is NOT a freeware, use is subject to license terms.
+
+Document   : success.html
+Encoding   : UTF-8
+Created on : 2011-11-18, 11:20:27
+Author     : leefire yunzhi.li.08@gmail.com 464328282
+Site       : http://www.aosheweb.com
+Description: 点评分组（前台模块）执行结果信息提示模板
+-->
+
+<tagLib name="html" />
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html>
+    <head>
+        <title>{$msgTitle}-页面提示</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta http-equiv='Refresh' content='{$waitSecond};URL={$jumpUrl}'/>
+        <style type="text/css">
+            *{margin:0px; padding:0px;}
+            body{text-align:center;}
+            .message{width:700px; height:auto; margin:30px auto;}
+            td {vertical-align: middle;}
+            a{color:red;}
+        </style>
+    </head>
+    <body>
+        <div class="message">
+            <table class="message"  cellpadding=0 cellspacing=0 >
+                <tr>
+                    <td height='5'  class="topTd" ></td>
+                </tr>
+                <present name="message" >
+                    <tr class="row">
+                        <td style="width:80px; background:url('__PUBLIC__/images/default/success.jpg') no-repeat;"></td>
+                        <td style="color:green; font-size:30px; font-weight:bold; height:50px; line-height:50px; text-align:left;">
+                            {$message}</td>
+                    </tr>
+                </present>
+                <present name="error" >
+                    <tr class="row">
+                        <td style="width:80px; background:url('__PUBLIC__/images/default/error.jpg') no-repeat;"></td>
+                        <td style="color:red; font-size:30px; font-weight:bold; height:50px; line-height:50px; text-align:left;">
+                            {$error}</td>
+                    </tr>
+                </present>
+                <present name="closeWin" >
+                    <tr class="row">
+                        <td style="height:60px; text-align:left; text-indent:5em;" colspan="2">系统将在 <span style="color:red;font-weight:bold;">{$waitSecond}</span> 秒后自动关闭，如果不想等待,直接点击 <A HREF="{$jumpUrl}">这里</A> 关闭</td>
+                    </tr>
+                </present>
+                <notpresent name="closeWin" >
+                    <tr class="row">
+                        <td style="height:60px; text-align:left; text-indent:5em;" colspan="2">系统将在 <span style="color:red;font-weight:bold;">{$waitSecond}</span> 秒后自动跳转,如果不想等待,直接点击 <A HREF="{$jumpUrl}">这里</A> 跳转</td>
+                    </tr>
+                </notpresent>
+                <tr>
+                    <td height='5' class="bottomTd"></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
+
