@@ -60,7 +60,8 @@ body{ color:#000; font-family:"宋体"; font-size:12px;}
 .pai2 dl dd{margin-left:10px; float:left}
 .pai2 dl dd p{line-height:24px;}
 .pai2 dl dd p a{color:#8e8ed9}
-.pai2 dl dd span{ width:64px; height:13px; background:url(../images/icon.png) no-repeat 0 -69px; margin-top:7px; float:left}
+.pai2 dl dd span{ width:64px; height:13px; margin-top:7px; float:left}
+.pai2 dl dd span.xin1{ background:url(../images/icon.png) no-repeat 0 -69px;}
 .pai2 ul{margin-top:8px; float:left; width:208px;}
 .pai2 ul li{line-height:24px; color:#014099}
 .pai2 ul li a{color:#014099}
