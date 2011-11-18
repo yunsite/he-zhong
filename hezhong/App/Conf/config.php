@@ -14,14 +14,14 @@
 
 return array(
     // 应用分组列表
-    'APP_GROUP_LIST' => 'Www,Admin',
+    'APP_GROUP_LIST' => 'Dp,Admin',
     // 默认分组
-    'DEFAULT_GROUP' => 'Www',
+    'DEFAULT_GROUP' => 'Dp',
     // 是否开启二级域名	1：开启  0：关闭
     'APP_SUB_DOMAIN_DEPLOY' => 0,
     // 指定二级域名与分组的关系
     'APP_SUB_DOMAIN_RULES' => array(
-	'www' => array('Www/'),
+	'www' => array('Dp/'),
     ),
     // 数据库配置
     'DB_TYPE' => 'mysql',
