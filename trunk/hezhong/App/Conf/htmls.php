@@ -13,8 +13,8 @@
  */
 
 return array(
-    // 配置Www分组的静态缓存规则，以当前的URL来缓存
-    'Www-' => array('{:group}/{:module}/{$_SERVER.REQUEST_URI|md5}'),
+    // 配置点评分组的静态缓存规则，以当前的URL来缓存
+    'Dp-' => array('{:group}/{:module}/{$_SERVER.REQUEST_URI|md5}'),
     // 配置Admin分组的静态缓存规则，以当前的URL来缓存
     'Admin-' => array('{:group}/{:module}/{$_SERVER.REQUEST_URI|md5}'),
 );
