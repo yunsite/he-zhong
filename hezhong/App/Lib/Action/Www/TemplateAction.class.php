@@ -16,6 +16,13 @@ class TemplateAction extends CommonAction {
     /*
      * 
      */
+    public function index(){
+        $this->display();
+    }
+    
+    /*
+     * 
+     */
 
     public function _empty() {
         $templateName = TEMPLATE_PATH . '/' . GROUP_NAME . '/' . MODULE_NAME . '/' . ACTION_NAME . '.html';
