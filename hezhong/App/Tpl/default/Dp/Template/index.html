@@ -38,10 +38,13 @@ Description: 模板静态开发及测试页面
         <![endif]-->
     </head>
     <body>
+        <div style="width:100%; height:10px; clear:both;"></div>
         <present name="tplFile">
             <layout name="$tplFile" cache="0" />
             <else />
             dianping template index
         </present>
+        
+        <div style="width:100%; height:10px; clear:both;"></div>
     </body>
 </html>
