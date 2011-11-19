@@ -28,7 +28,7 @@ class TemplateAction extends CommonAction {
         $templateName = TEMPLATE_PATH . '/' . GROUP_NAME . '/' . MODULE_NAME . '/' . ACTION_NAME . '.html';
         if (file_exists($templateName)) {
             $this->assign('tplFile', $templateName);
-            $this->display('Dp:Template:index');
+            $this->display(GROUP_NAME . ':' . MODULE_NAME . ':index');
         } else {
             $this->_message('errorUri', '出错了，您访问的模板不存在！', U(APP_NAME . '://' . GROUP_NAME . '-' . MODULE_NAME . '/index'));
         }
