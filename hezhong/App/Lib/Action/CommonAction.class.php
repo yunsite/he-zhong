@@ -160,7 +160,7 @@ class CommonAction extends Action {
      */
 
     public function _empty() {
-        $this->_message('errorUri', '出错了，您访问的页面不存在！', U(APP_NAME . '://' . GROUP_NAME . '-Index/index'));
+        $this->_message('errorUri', '出错了，您访问的模板不存在！', U(APP_NAME . '://' . GROUP_NAME . '-Index/index'));
     }
 
     /*

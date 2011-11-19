@@ -53,5 +53,5 @@ return array(
     'SMTP_USER' => '1823825135',
     'SMTP_PWD' => 'ms201101',
     'FROM_EMAIL' => '1823825135@qq.com',
-    'FROM_NAME' => '【微源网络科技】',
+    'FROM_NAME' => '【遨设网络科技】',
 );
