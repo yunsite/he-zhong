@@ -27,8 +27,7 @@ user =
 author = 
 email = 
 qq = 
-url = 
-tel = 
+url = http://www.aosheweb.com
 
 设置方法：
 工具 -> 模板 -> 设置
@@ -117,7 +116,7 @@ __PUBLIC__      整体项目工程下的 Public 目录
 样式存放位置：      ../Public/css/
                   即： /App/Tpl/default/Public/css/
 
-样式图片存放位置：  ../public/images/
+样式图片存放位置：  ../Public/images/
                   即： /App/Tpl/default/Public/images/
                   注： 主要是存放与CSS相关的图片以及样式定义相关联的图片，不放置与测试相
                   关的任何内容，如产品图片、用户头像等。
