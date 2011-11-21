@@ -11,8 +11,8 @@
 */
 
 /*通用*/
-*{margin:0; padding:0;}
-img{ border:0;}
+*{margin:0px; padding:0px;}
+img{ border:0px;}
 a{font-size:12px; text-decoration:none; font-family:"宋体"; color:#000}
 a:hover{ color:#FF0000}
 ul li{list-style:none;}
@@ -22,22 +22,23 @@ body{ color:#000; font-family:"宋体"; font-size:12px;}
 .clear{clear:both}
 
 /*头部*/
-#loginBar{height:35px; background:url(../images/backgroud.png) repeat-x 0 -38px}
-.loginBar_z{width:1000px; line-height:35px; margin:0 auto}
-.loginBar_z p{float:left}
-.loginBar_z p a{font-weight:bold; color:#0b4ca8; margin-left:12px;}
-.loginBar_z span{float:right}
+#loginbar{height:35px; background:url(../images/backgroud.png) repeat-x 0 -38px;text-align:center;}
+.loginbar_z{width:1000px; line-height:35px; margin:0 auto}
+.loginbar_z p{float:left}
+.loginbar_z p a{font-weight:bold; color:#0b4ca8; margin-left:12px;}
+.loginbar_z span{float:right}
 
-#navBar{width:1000px; margin:25px auto 0; background:url(../images/nav_bj.jpg) no-repeat bottom; height:102px;}
+#navda{width: 100%; text-align:center}
+#navbar{width:1000px; margin:25px auto 0; background:url(../images/nav_bj.jpg) no-repeat bottom; height:102px;}
 .logobar{width:1000px;}
-.logo{float:left; margin-left:25px;}
+.logo{float:left; margin-left:25px; display: inline}
 .nav{ margin:22px 0 0 35px; float:left}
 .nav a{float:left; width:81px; line-height:31px; background:url(../images/botton.png) no-repeat -86px 0; margin-left:5px; font-size:14px; color:#05449f; text-align:center}
 .nav a:hover{background:url(../images/botton.png) no-repeat; color:#FFF}
 
 #searchar{ margin-top:10px; _margin-top:8px;}
-.subNav{float:left; margin-left:5px;}
-.subnav1{ width:182px; line-height:31px; background:url(../images/fenlei.jpg); padding-left:39px;}
+.subNav{float:left; margin-left:5px; display: inline}
+.subnav1{ width:182px; _width:221px; line-height:31px; background:url(../images/fenlei.jpg); padding-left:39px; text-align:left}
 .subnav1 a{font-size:14px; color:#03439d; font-weight:bold}
 .sear{float:left; margin-left:15px;}
 .sear p{width:62px; text-align:center; line-height:31px; font-size:14px; color:#FFF; float:left}
@@ -52,19 +53,136 @@ body{ color:#000; font-family:"宋体"; font-size:12px;}
 
 /*产品排行*/
 #product{width:228px; border:1px #ddd solid; float:left; margin-top:10px;}
-.pai1{line-height:32px; background:url(../images/backgroud.png) 0 -122px; overflow:hidden}
+.pai1{line-height:32px; background:url(../images/backgroud.png) 0 -122px; float:left; width: 228px; overflow:hidden}
 .pai1 p{float:left; padding-left:12px; font-size:14px; font-weight:bold; color:#014099}
 .pai1 span{float:right; padding-right:5px;}
 .pai2{padding:5px 10px 2px; float:left; width:208px}
 .pai2 dl dt{float:left}
 .pai2 dl dd{margin-left:10px; float:left}
-.pai2 dl dd p{line-height:24px;}
+.pai2 dl dd p{line-height:32px;}
 .pai2 dl dd p a{color:#8e8ed9}
-.pai2 dl dd span{ width:64px; height:13px; margin-top:7px; float:left}
-.pai2 dl dd span.xin1{ background:url(../images/icon.png) no-repeat 0 -69px;}
-.pai2 ul{margin-top:8px; float:left; width:208px;}
+.xinji{ width:64px; height:12px; float:left}
+.xinji.xin0{ background:url(../images/icon.png) no-repeat 0 -119px;}
+.xinji.xin1{ background:url(../images/icon.png) no-repeat 0 -102px;}
+.xinji.xin2{ background:url(../images/icon.png) no-repeat 0 -85px;}
+.xinji.xin3{ background:url(../images/icon.png) no-repeat 0 -68px;}
+.xinji.xin4{ background:url(../images/icon.png) no-repeat 0 -51px;}
+.xinji.xin5{ background:url(../images/icon.png) no-repeat 0 -34px;}
+.xinji.xin6{ background:url(../images/icon.png) no-repeat 0 -17px;}
+.xinji.xin7{ background:url(../images/icon.png) no-repeat 0 -0;}
+.pai2 ul{margin-top:8px;}
 .pai2 ul li{line-height:24px; color:#014099}
 .pai2 ul li a{color:#014099}
 
 /*js广告条760*/
 #slides{margin-top:10px;}
+
+/*优惠券*/
+#coupons{margin-top:10px; width:760px;}
+.lanbt{height:26px; border-bottom:3px #014099 solid}
+.lanbt p{width:88px; line-height:27px; text-align:center; font-size:14px; font-weight:bold; color:#FFF; background:url(../images/botton.png) 0 -74px;}
+.coupons1{ width:760px;}
+.coupons1 ul{float:left; width:173px; margin:10px 8px 0; display:inline}
+.coupons1 ul h3{line-height:18px;}
+.coupons1 ul h3 img{margin-bottom:3px;}
+.coupons1 ul li{line-height:20px; color:#0a4ca8; margin-top:3px; float:left; width:173px;}
+
+/*热门区域*/
+#area{width:748px; border:1px #0747a2 solid; margin-top:10px; padding:0 5px; float:left}
+.area1{line-height:26px; border-bottom:1px #878282 dotted; float:left; width:748px; margin-top:7px;}
+.area1 p{float:left; padding-left:7px; font-size:14px; font-weight:bold; color:#1357b6}
+.area1 span{float:right; padding-right:7px;}
+.area1 span a{color:#878282}
+.area2{line-height:28px; margin-top:3px; width:748px; float:left; padding:0 5px;}
+.area2 p{float:left; width:80px; font-weight:bold; color:#1357b6; margin-left:5px; display:inline}
+.area2 h4{width:15px; height:15px; float:left; margin-top:7px;}
+.area2 h4.tu1{background:url(../images/botton.png) -152px -37px;}
+.area2 h4.tu2{background:url(../images/botton.png) -152px -58px;}
+.area2 h4.tu3{background:url(../images/botton.png) -152px -77px;}
+.area2 h4.tu4{background:url(../images/botton.png) -152px -99px;}
+.area2 h4.tu5{background:url(../images/botton.png) -152px -123px;}
+.area2 h4.tu6{background:url(../images/botton.png) -152px -145px;}
+.area2 h4.tu7{background:url(../images/botton.png) -152px -164px;}
+.area2 span{float:left; display: inline}
+.area2 span a{ padding:2px 7px;}
+.area2 span a:hover{ background:#03F; color:#FFF; padding:2px 7px;}
+
+/*底部信息*/
+#footer{width:1000px; border-top:2px #c1c1c1 solid; margin:10px auto 0;}
+#footer p{margin-top:7px; line-height:24px; color:#7a7a7a}
+#footer img{margin:0 5px;}
+
+/*点评*/
+#dianp{margin-top:10px; width:760px;}
+.dping{ border:1px #dddddd solid; border-top:none; overflow:hidden;}
+.ping{margin:10px 5px 5px; border-bottom:1px #999 dashed; padding-bottom:5px;}
+.lanfb{color:#23669b; font-weight:bold}
+
+.shou{width:14px; height:15px; float:left}
+.shou.zheng{background:url(../images/icon.png) no-repeat 0 -271px;}
+.shou.fan{background:url(../images/icon.png) no-repeat -20px -271px;}
+.xie{width:70px; height:25px; background:url(../images/icon.png) no-repeat 0 -291px;}
+.xie a{width:70px; height:25px; float:left}
+
+/*分类*/
+#fenlei{width:800px;}
+.fenl{margin-top:5px; border-bottom:1px #cacaca dashed; float:left; width:800px; float:left; padding-bottom:5px;}
+.fenlei1{line-height:26px; background:url(../images/erji_07.jpg) no-repeat 0 7px; padding-left:20px; float:left; color:#909090; font-weight:bold; width:780px; margin-top:5px;}
+.fenlei2{ line-height:22px; float:left; width:800px;}
+.fenlei2 a{float:left; margin:0px 22px;}
+.fenlei2 span{float:left; color:#ff822a; padding-left:10px;}
+.fenlei2 p{float:left}
+
+/*推荐产品*/
+#tui{width:800px;}
+.jian{width:798px; _width:800px; float:left; border:1px #dddddd solid; border-top:none; padding-bottom:5px; }
+.jian ul li{float:left; width:110px; text-align:center; margin:12px 10px 0 12px; display:inline}
+.jian ul li span{line-height:18px; margin-top:3px; width:110px; float:left}
+
+/*新闻*/
+#xinw{width:188px; border:1px #dddddd solid;}
+.zuobt{line-height:32px; background:url(../images/backgroud.png) 0 -122px; width:188px; float: left}
+.zuobt p{float:left; padding-left:12px; font-size:14px; font-weight:bold; color:#014099}
+.xinw{padding:5px;}
+.xinw ul li{line-height:24px; background:url(../images/xind.jpg) no-repeat 2px 7px; padding-left:15px;}
+
+/*新店*/
+.xinw dl{ margin-top:3px; padding-bottom:5px; float:left}
+.xinw dl dt{float:left}
+.xinw dl dd{float:left; width:100px; line-height:18px; margin-left:5px;}
+
+/*博友*/
+.zis{color:#6666cc}
+.huiji{width:70px; height:13px; margin-top:5px;}
+.huiji.hxin1{background:url(../images/icon.png) 0 -223px;}
+.huiji.hxin2{background:url(../images/icon.png) 0 -203px;}
+.huiji.hxin3{background:url(../images/icon.png) 0 -183px;}
+.huiji.hxin4{background:url(../images/icon.png) 0 -163px;}
+.huiji.hxin5{background:url(../images/icon.png) 0 -143px;}
+
+/*文章列表*/
+.wenlei{width:800px;}
+.wenlei ul li{line-height:25px; margin-top:3px; background:url(../images/wenl_03.jpg) no-repeat 3px 9px; padding-left:15px;}
+.wenlei ul li a{font-size:14px;}
+.wenlei ul li font{color:#e57b33; font-size:12px;}
+.wenbt{margin-top:5px; float:left; width:800px; text-align:center}
+.wenbt p{font-family:"微软雅黑"; font-weight:500; font-size:18px; color:#013f95; height:22px;}
+.wenbt span{margin-top:7px; line-height:25px; color:#8d8d8d}
+.jianjie{background:#fffbf0; padding:8px; border:1px #f9d5b8 solid; margin-top:8px; line-height:24px; color:#5d5c5c; font-size:14px;}
+.rong{margin-top:10px; line-height:26px; font-size:14px; color:#5d5c5c}
+
+/*优惠券列表*/
+#you{width:798px; border:1px #dddddd solid; float:left; padding-bottom:10px;}
+.you1{line-height:32px; background:url(../images/backgroud.png) 0 -122px; width:798px; float:left}
+.you1 p{float:left; padding-left:12px; font-size:14px; font-weight:bold; color:#014099}
+.you1 span{float:right; padding-right:5px;}
+.fag{width:32px; height:12px; background:url(../images/botton.png) 0 -248px; float:left; margin-top:9px; overflow:hidden}
+.fag a{float:left; width:14px; height:12px; margin-right:2px;}
+.youh{float:left; width:222px; height:214px; border:1px #dddddd solid; margin:12px 20px 0 20px; _margin:12px 15px 0px; padding:1px;}
+.youht{line-height:22px; text-align:center}
+.youhw{margin-top:8px}
+.ho24{font-size:24px; font-family:"微软雅黑"; font-weight:500; color:#ff6600}
+.san{text-decoration:line-through; color:#8e8e8e}
+.lans{color:#0848a3}
+.kan{width:81px; height:28px; background:url(../images/botton.png) 0 -140px; float:left}
+.kan a{width:81px; height:28px; float:left}
