@@ -140,7 +140,7 @@ body{ color:#000; font-family:"宋体"; font-size:12px;}
 .jian ul li span{line-height:18px; margin-top:3px; width:110px; float:left}
 
 /*新闻*/
-#xinw{width:188px; border:1px #dddddd solid;}
+#xinw{width:188px; border:1px #dddddd solid; float: left}
 .zuobt{line-height:32px; background:url(../images/backgroud.png) 0 -122px; width:188px; float: left}
 .zuobt p{float:left; padding-left:12px; font-size:14px; font-weight:bold; color:#014099}
 .xinw{padding:5px;}
@@ -186,3 +186,45 @@ body{ color:#000; font-family:"宋体"; font-size:12px;}
 .lans{color:#0848a3}
 .kan{width:81px; height:28px; background:url(../images/botton.png) 0 -140px; float:left}
 .kan a{width:81px; height:28px; float:left}
+
+/*优惠券排行列表*/
+.youpai{float:left}
+.youpai ul li{ float:left; width:188px; margin-top:8px;}
+.youpai ul li span{width:180px; float:left; height:18px; padding-left:8px;}
+.youpai ul li span font{color:#0848a3; margin-left:28px; display:inline; font-size: 12px;}
+
+/*优惠券详情*/
+.youxiang{border:1px #dddddd solid; width:798px;}
+.youbt{height:38px; background:url(../images/backgroud.png) repeat-x 0 -114px}
+.da{width:38px; height:20px; background:url(../images/botton.png) 0 -218px; border:none; cursor:pointer; margin-top:8px}
+.xiaz{width:86px; height:20px; background:url(../images/botton.png) -49px -218px; border:none; cursor:pointer; margin-top:8px; margin-left:10px;}
+.mu{line-height:35px; width:88px; background:url(../images/botton.png) 0 -170px; text-align:center; font-size:14px; color:#0646a1; float:left; margin:3px 0 0 10px;}
+.fenx{line-height:38px; padding-left:8px; float:left;}
+.fenx span{float:left}
+.fenx a{width:43px; height:21px; background:url(../images/icon.png) 0 -244px; float:left; margin-top:8px;}
+.liu{float:right; line-height:38px; padding-right:12px;}
+.liu font{color:#094aa6; font-size:12px;}
+.youhx{line-height:32px; background:url(../images/backgroud.png) 0 -122px; float:left; width:100%; border-top:1px #dddddd solid}
+.youhx p{float:left; padding-left:12px; font-size:14px; font-weight:bold; color:#014099}
+
+/*查找商家*/
+#zhao{width:798px; border:1px #adadad solid; float:left}
+.zhao1{height:35px; background:url(../images/backgroud.png) 0 -38px;}
+.zhao1 span{padding-left:10px;}
+.lan16{font-family:"微软雅黑"; font-size:16px; font-weight:500; color:#094aa5}
+.zhao2{width:798px; background-color:#f3eded; float:left}
+.zhao2 ul li{line-height:24px; margin-top:5px; padding-left:15px}
+.zhao2 ul li font{color:#959090; font-size: 12px;}
+.zhao2 ul li span{padding-left:10px;}
+.zhao2 ul li span a{color:#0646a1}
+
+/*登录*/
+#denglu{ text-align: center;}
+.deng1{float:left; width:597px;}
+.denglu2{float:right; width:360px; border:1px #dddddd solid; background:url(../images/dengbj_03.jpg) repeat-x bottom; height:250px; _height:262px; padding:10px 0 0 31px;}
+.denglu2 h2{line-height:32px; font-size:16px; font-weight:500; font-family:"微软雅黑"; color:#04439d}
+.denglu2 ul{ margin-top:12px;}
+.denglu2 ul li{line-height:24px; margin-top:18px; float:left; width:360px;}
+.denglu2 ul li p{float:left; width:65px;}
+.denglu2 ul li span{float:left}
+.lv{color:#277e01}

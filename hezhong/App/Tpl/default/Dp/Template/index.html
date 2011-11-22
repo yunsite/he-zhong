@@ -39,12 +39,26 @@ Description: 模板静态开发及测试页面
         <![endif]-->
     </head>
     <body>
+         <div style="clear:both;width:100%;height:10px;"></div>
+         
         <present name="tplFile">
             <layout name="$tplFile" cache="0" />
             <else />
-            dianping template index
+            
+            <h1 style="font-size:16px;font-weight:bold;line-height:50px;margin-left:30px;">华智天成模板列表</h1>
+            <hr/>
+            <volist name="templates" id="vo">
+                <span>
+                    <a href="{$vo.templateUrl}" style="font-size:14px;line-height:25px;margin:10px 40px;float:left;color:black;">{$vo.templateName}</a>
+                </span>
+            </volist>
+            
         </present>
         
-        <div style="clear:both;"></div>
+         <div style="clear:both;width:100%;height:10px;"></div>
+         
+         <h1 style="font-size:16px;font-weight:bold;line-height:50px;margin-left:30px;"><a style="color:black;" href="__URL__/index">返回模板列表页</a></h1>
+         
+         <div style="clear:both;width:100%;height:10px;"></div>
     </body>
 </html>
