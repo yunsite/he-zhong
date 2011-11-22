@@ -14,14 +14,32 @@
 
 class TemplateAction extends CommonAction {
     /*
-     * 
+     * 模板列表页
+     * @access  public
+     * @param   void
+     * @return  void
      */
-    public function index(){
+
+    public function index() {
+        $dir = TEMPLATE_PATH . '/' . GROUP_NAME . '/' . MODULE_NAME;
+        $handle = opendir($dir);
+        $templates = array();
+        while ($file = readdir($handle)) {
+            $newpath = $dir . "/" . $file;
+            if (is_file($newpath) && $file != "index.html") {
+                $tempArray = explode('.', $file);
+                $templates[] = array('templateName' => $tempArray[0], 'templateUrl' => '__URL__/' . $tempArray[0]);
+            }
+        }
+        $this->assign('templates', $templates);
         $this->display();
     }
-    
+
     /*
-     * 
+     * 模板模块的空方法函数，用于产生对各个不同模板文件的调用
+     * @access  public
+     * @param   void
+     * @return  void
      */
 
     public function _empty() {
