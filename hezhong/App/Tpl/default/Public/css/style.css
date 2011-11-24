@@ -209,9 +209,9 @@ body{ color:#000; font-family:"宋体"; font-size:12px;}
 
 /*查找商家*/
 #zhao{width:798px; border:1px #adadad solid; float:left}
-.zhao1{height:35px; background:url(../images/backgroud.png) 0 -38px;}
-.zhao1 span{padding-left:10px;}
-.lan16{font-family:"微软雅黑"; font-size:16px; font-weight:500; color:#094aa5}
+.zhao1{height:35px; line-height: 35px; background:url(../images/backgroud.png) 0 -38px;}
+.zhao1 span{padding-left:10px; float: left}
+.lan16{font-family:"微软雅黑"; font-size:16px; font-weight:500; color:#094aa5;}
 .zhao2{width:798px; background-color:#f3eded; float:left}
 .zhao2 ul li{line-height:24px; margin-top:5px; padding-left:15px}
 .zhao2 ul li font{color:#959090; font-size: 12px;}
@@ -228,3 +228,24 @@ body{ color:#000; font-family:"宋体"; font-size:12px;}
 .denglu2 ul li p{float:left; width:65px;}
 .denglu2 ul li span{float:left}
 .lv{color:#277e01}
+
+/*会员个人中心*/
+#huiyuan{width:190px;}
+.gexin{width:178px; padding:5px; border:1px #dddddd solid; float:left}
+.gexin dl dt{ float:left}
+.gexin dl dd{width:115px; padding-left:5px; line-height:24px; float:left}
+.gexin dl dd font{font-weight:bold; color:#ff8c03}
+
+.zhanghu{width:188px; border:1px #dddddd solid; margin-top:10px; float:left}
+.zhanghu h2{line-height:30px; background:url(../images/geren_11.jpg) no-repeat 5px 9px; font-weight:bold; color:#0a4ba7; font-size:14px; padding-left:20px; border-bottom:1px #dddddd solid;}
+.zhanghu ul{padding:5px;}
+.zhanghu ul li{line-height:24px; background:url(../images/geren_15.jpg) no-repeat 5px 7px; padding-left:20px; margin-top:3px;}
+.zhanghu ul li a{color:#545454}
+
+#hui_right{width:798px; border:1px #dddddd solid; float:right;}
+.huiybt{line-height:30px;border-bottom:1px #dddddd solid; background:url(../images/ger.jpg) no-repeat left; padding-left:12px; font-weight:bold; color:#0a4ba7; font-size:14px;}
+.huiwen{padding:20px 0 0 38px;}
+.huiwen ul li{line-height:30px; margin-top:5px; float:left; width:100%; color:#545454}
+.huiwen ul li span input,textarea,select{color:#737373}
+.huiwen ul li p{float:left; width:65px; text-align:right;}
+.huiwen ul li span{float:left}
